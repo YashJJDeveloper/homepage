@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .mainbox{
+                display: grid;
+                grid-template-columns: 450px 150px;
+                width: 600px;
+                height: 500px;
+                background-color: aquamarine;
+                gap: 5px;
+            }
+            .right-box{
+                background-color: burlywood;
+                height: 100%;
+                width: 450px;
+            }
+            .leftbox{
+                width: 150px;
+                height: 100%;
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                gap: 5px;
+            }
+            .l-r1{
+                background-color: yellowgreen;
+            }
+            .l-r2{
+                background-color: violet;
+            }
+            .l-r3{
+                background-color: thistle;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="mainbox">
+            <div class="right-box"></div>
+            <div class="leftbox">
+                <div class="l-r1"></div>
+                <div class="l-r2"></div>
+                <div class="l-r3"></div>
+            </div>
+
+        </div>
+    </body>
+</html>

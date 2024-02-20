@@ -1,0 +1,324 @@
+.mainbox {
+    display: grid;
+    grid-template-rows: 60% 5% 35% 35%;
+    background-color: rgb(211, 201, 201);
+    height: 100vh;
+    width: 80vw;
+    margin-left: 140px;
+}
+
+.upper-box {
+    background-color: lightgray;
+}
+
+.mid-box {
+    background-color: rgb(196, 188, 188);
+}
+
+.lower-box1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.L1 {
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+}
+
+.R1 {
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+}
+
+.lower-box2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.L2 {
+    background-color: rgb(218, 62, 62);
+    height: 100%;
+    width: 100%;
+}
+
+.R2 {
+    background-color: rgb(76, 126, 76);
+    height: 100%;
+    width: 100%;
+}
+
+.search {
+    float: right;
+    height: 35px;
+    width: 60px;
+    background-color: rgb(204, 200, 197);
+}
+.image1{
+    float: right; margin-top: 60px; margin-right: 20px; margin-bottom: 50px; height: 200px; width: 500px;
+}
+
+@media (max-width:400px) {
+    .mainbox {
+        display: grid;
+        grid-template-rows: 60% 5% 35% 35%;
+        background-color: rgb(211, 201, 201);
+        height: 100vh;
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    
+    .upper-box {
+        background-color: lightgray;
+    }
+    
+    .mid-box {
+        background-color: rgb(196, 188, 188);
+    }
+    
+    .lower-box1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+    
+    .L1 {
+        background-color: yellow;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .R1 {
+        background-color: aqua;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .lower-box2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .L2 {
+        background-color: rgb(218, 62, 62);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .R2 {
+        background-color: rgb(76, 126, 76);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .search {
+        float: right;
+        height: 35px;
+        width: 60px;
+        background-color: rgb(204, 200, 197);
+    }
+    .image1{
+        float: right; margin-top: 60px; margin-right: 20px; margin-bottom: 50px; height: 200px; width: 500px;
+    }
+}
+@media (min-width:400px) and (max-width:500px) {
+    .mainbox {
+        display: grid;
+        grid-template-rows: 60% 5% 35% 35%;
+        background-color: rgb(211, 201, 201);
+        height: 100vh;
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    
+    .upper-box {
+        background-color: lightgray;
+    }
+    
+    .mid-box {
+        background-color: rgb(196, 188, 188);
+    }
+    
+    .lower-box1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+    
+    .L1 {
+        background-color: yellow;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .R1 {
+        background-color: aqua;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .lower-box2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .L2 {
+        background-color: rgb(218, 62, 62);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .R2 {
+        background-color: rgb(76, 126, 76);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .search {
+        float: right;
+        height: 35px;
+        width: 60px;
+        background-color: rgb(204, 200, 197);
+    }
+    .image1{
+        float: right; margin-top: 60px; margin-right: 20px; margin-bottom: 50px; height: 200px; width: 500px;
+    }
+}
+@media (min-width:500px) and (max-width:750px) {
+    .mainbox {
+        display: grid;
+        grid-template-rows: 60% 5% 35% 35%;
+        background-color: rgb(211, 201, 201);
+        height: 100vh;
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    
+    .upper-box {
+        background-color: lightgray;
+    }
+    
+    .mid-box {
+        background-color: rgb(196, 188, 188);
+    }
+    
+    .lower-box1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+    
+    .L1 {
+        background-color: yellow;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .R1 {
+        background-color: aqua;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .lower-box2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .L2 {
+        background-color: rgb(218, 62, 62);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .R2 {
+        background-color: rgb(76, 126, 76);
+        height: 100%;
+        width: 100%;
+    }
+    
+    .search {
+        float: right;
+        height: 35px;
+        width: 60px;
+        background-color: rgb(204, 200, 197);
+    }
+    .image1{
+        float: right; margin-top: 10vh; margin-right: 5vw; margin-bottom: 50px; height: 200px; width: 500px;
+    }
+}
+
+@media (min-width:750px) {.mainbox {
+    display: grid;
+    grid-template-rows: 60% 5% 35% 35%;
+    background-color: rgb(211, 201, 201);
+    height: 100vh;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+.upper-box {
+    background-color: lightgray;
+}
+
+.mid-box {
+    background-color: rgb(196, 188, 188);
+}
+
+.lower-box1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.L1 {
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+}
+
+.R1 {
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+}
+
+.lower-box2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.L2 {
+    background-color: rgb(218, 62, 62);
+    height: 100%;
+    width: 100%;
+}
+
+.R2 {
+    background-color: rgb(76, 126, 76);
+    height: 100%;
+    width: 100%;
+}
+
+.search {
+    float: right;
+    height: 35px;
+    width: 60px;
+    background-color: rgb(204, 200, 197);
+}
+.image1{
+    float: right; margin-top: 60px; margin-right: 20px; margin-bottom: 50px; height: 200px; width: 500px;
+}
+}
